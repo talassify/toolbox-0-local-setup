@@ -28,6 +28,7 @@ VS Code (Visual Studio Code) is free, and it's what you'll use to write every li
 4. Once it's installed, open VS Code. If you see a blank window with a sidebar on the left, you're done.
 
 **Optional but recommended:** Once you're in VS Code, click the square icon on the left sidebar (Extensions) and install:
+
 - **Live Server** — lets you preview HTML pages in your browser as you build
 - **ESLint** — flags mistakes in your code as you type
 
@@ -170,8 +171,8 @@ Discord is where your Quarter actually happens day to day — announcements, too
 - [ ] Discord account created (desktop and mobile) and joined the Talassify server
 - [ ] Found #welcome-and-rules in the START HERE category
 
-Once all three are checked, reply to your onboarding email to confirm — this is how we know you're ready for Day 1.
+Once everything above is checked, reply to your onboarding email to confirm — this is how we know you're ready for Day 1.
 
 ---
 
-*Stuck on anything? Email talassify@gmail.com. We'd rather answer a "dumb question" now than have you stall out on setup during Week 1.*
+*Getting stuck is a normal part of setting all this up — it happens to everyone, not just beginners. If something's not clicking, email talassify@gmail.com. A facilitator will help you work through it — the earlier you ask, the easier it is to fix.*
