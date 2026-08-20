@@ -1,6 +1,6 @@
 # Toolbox 0: Get Your Tools Ready
 
-Before your Quarter starts, there are a few things to set up on your computer. None of this requires coding knowledge — just following steps. Total time is about **65 minutes** if everything goes smoothly — budget closer to **90** if you're brand new to any of this. Each part below has its own time estimate so you can see how far along you are.
+Before your Quarter starts, there are a few things to set up on your computer. None of this requires coding knowledge — just following steps. Total time is about **65 minutes** if everything goes smoothly — budget closer to **90** if you're brand new to any of this. Each part below has its own time estimate so you can see how far along you are. **Part 6 (Node.js/npm) adds ~10 more minutes, but only if it applies to your track** — see that section for who needs it.
 
 Do this **before Day 1**. If you get stuck on any step, email **talassify@gmail.com** and we'll help you sort it out — don't wait until kickoff week.
 
@@ -15,6 +15,7 @@ Do this **before Day 1**. If you get stuck on any step, email **talassify@gmail.
 | GitHub | Where your code lives and where you'll show your work |
 | Git | The tool that moves your code from your computer onto GitHub |
 | Discord | Where your Quarter, mentors, and toolbox help channels live |
+| Node.js / npm / nvm | *(Conditional — see Part 6)* Needed to run JavaScript framework tooling like Vue |
 
 ---
 
@@ -161,6 +162,39 @@ Discord is where your Quarter actually happens day to day — announcements, too
 
 ---
 
+## Part 6: Install Node.js, npm, and nvm — ~10 minutes
+
+> **Required if:** you're on the **JavaScript Framework track** (Toolbox 3 / Vue.js) or planning to pursue **Full-Stack Development**.
+> **Optional for everyone else** — skip this part for now if neither applies to you. You can always come back and do it later if your track changes.
+
+Vue's tooling (and most modern JavaScript frameworks) run through Node.js and npm, not the browser. Neither comes bundled with VS Code, so if your track needs it, set it up now rather than mid-toolbox.
+
+1. **Check if you already have them.** Open a terminal and run:
+   ```
+   node -v
+   npm -v
+   ```
+   If both print a version number, you're already set — skip to the checklist below.
+
+2. **If you see "command not found,"** you have two options:
+   - **Simplest:** install Node.js (which includes npm) directly from **[nodejs.org](https://nodejs.org)** — download the LTS version.
+   - **Recommended instead:** install **nvm** (Node Version Manager), which lets you install and switch Node versions per-project rather than committing to one system-wide version. This matters because different frameworks and toolboxes can require different Node versions over time.
+     - macOS/Linux: [nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+     - Windows: [nvm-windows](https://github.com/coreybutler/nvm-windows)
+     - Then run:
+       ```
+       nvm install --lts
+       nvm use --lts
+       ```
+
+**You're set up when:**
+
+- [ ] `node -v` prints a version number
+- [ ] `npm -v` prints a version number
+- [ ] *(Optional)* `nvm -v` prints a version number, confirming nvm is installed
+
+---
+
 ## Before You're Done: Confirm You Have
 
 - [ ] VS Code installed and opens without errors
@@ -170,6 +204,7 @@ Discord is where your Quarter actually happens day to day — announcements, too
 - [ ] Connected local machine to GitHub (Option A or B) and pushed a test commit
 - [ ] Discord account created (desktop and mobile) and joined the Talassify server
 - [ ] Found #welcome-and-rules in the START HERE category
+- [ ] *(If on JS Framework or Full-Stack track)* Node.js and npm installed and verified
 
 Once everything above is checked, reply to your onboarding email to confirm — this is how we know you're ready for Day 1.
 
